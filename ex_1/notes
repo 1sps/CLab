@@ -1,0 +1,88 @@
+1. What is programming language?
+
+A programming language is a formal language, which comprises a set of
+instructions that produce various kinds of output. Programming languages are
+used in computer programming to implement algorithms
+
+
+2. What are different types of programming languages?
+
+Programming languages are classified on two basis. First, they can be classified
+according to their ..TODO.. Based on these classification there are following types
+of languages:
+
+    A. High level languages
+    B. Assembly level languages
+    C. Low level languages
+
+Second, programming languages are classified on the basis of translation. On
+this basis there are two types of languages:
+
+    A. Compiled language
+    B. Interpreted language
+
+
+3. Give a brief introduction of C programming language.
+
+C is a high level compiled programming language. It was developed by Dennis
+Ritchie in AT&T Bell Labs while creating the UNIX operating system.
+
+
+4. Briefly explain the compilation process of a programme written in C.
+
+A. Pre processing step.
+B. Translation from high level code to assembly code.
+C. Translation from assembly code to binary code.
+D. From step C we get object code of the program.
+E. Object code is linked with library to get the executable program.
+
+
+5. What is difference between software and firmware?
+
+
+---------------------------------------------------------------------
+Software                         | Firmware
+---------------------------------------------------------------------
+Software generally means a       | Firmware are also softwares but
+computer program which has a     | they are used to do very low
+specific task which is not       | level operations which are
+necessarily related to proper    | closely related to proper
+functioning of computer hardware.| functioning of computer hardware.
+                                 |
+
+
+6. What is difference between compiler and interpretor?
+
+---------------------------------------------------------------------
+Compiler                         | Interpretor
+---------------------------------------------------------------------
+Translates high level language   | Used to interpret instructions of 
+to low level language.           | a program written in interpreted 
+                                 | languages.
+                                 | 
+Needs to be run only once,       | Interpretor needs to run everytime
+during the compilation process . | the program is run.
+                                 |  
+                                 |
+Ex: C compiler, c++ compiler     | Python interpretor, PHP interpretor
+                                 |
+
+
+7. What is difference between system software and application software?
+
+---------------------------------------------------------------------
+System Software                  | Application Software
+---------------------------------------------------------------------
+System software are softwares    | Application softwares are softwares
+which are needed for a computer  | which are used to perform specific 
+to operate properly.             | operations which are not necessarily
+                                 | needed for a computer to operate
+                                 | properly.
+                                 |
+Computer may not work properly   | Computer will still work properly
+if system softwares are missing. | even if some application softwares
+                                 | are missing. 
+                                 |
+Ex: Operating system, loader,    | Ex: MS Word, Adobe Photoshop, FIFA, etc
+    linker, etc.                 |
+                                 |
