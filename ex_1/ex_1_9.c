@@ -1,10 +1,6 @@
 /*
  * ex_1_9.c:
  *
- * St: 2020-02-13 Thu 08:00 PM
- * Up: 2020-02-13 Thu 08:00 PM
- *
- * Author: SPS
  */
 
 #include<stdio.h>

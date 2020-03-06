@@ -7,7 +7,6 @@
  * 2. Use of scanf
  * 3. Use of arithmetic operators
  *
- * Author: SPS
  */
 
 #include<stdio.h>

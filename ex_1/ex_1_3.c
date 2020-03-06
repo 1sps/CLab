@@ -12,7 +12,7 @@
  *    instead a C operator. It returns the size of the variable/constant/datatype
  *    passed to it.
  *
- * TODO: compilation warning in gcc.
+ * TODO: There are some issues in this code.
  *
  */
 

@@ -3,7 +3,6 @@
  *
  * This program just prints a simple message.
  *
- * Author: SPS
  */
 
 #include<stdio.h>

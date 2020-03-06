@@ -1,5 +1,5 @@
 /*
- * ex_1_9.c:
+ * ex_1_10.c:
  *
  * Write a program to read price of two pens and five copies of same type and
  * calculate the price after discounting 10%.
