@@ -11,9 +11,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main(void)
 {
@@ -47,9 +44,6 @@ void main(void)
     /* Display the result.*/
     printf("c: %.2f\n", c);
 
-    /*
-    getch();
-    */
-
+    getchar();
 }
 

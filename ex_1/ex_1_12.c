@@ -6,9 +6,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main()
 {
@@ -44,8 +41,6 @@ void main()
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
 
-    /*
-    getch();
-    */
+    getchar();
 }
 

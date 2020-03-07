@@ -11,9 +11,6 @@
 #include<stdio.h>
 #include<math.h>
 
-/*
-#include<conio.h>
-*/
 
 int main(void)
 {
@@ -42,9 +39,7 @@ int main(void)
     printf("Radius = %f\n", radius);
     printf("Volume = %f\n", vol);
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }

@@ -17,9 +17,9 @@
  */
 
 #include<stdio.h>
-/*
-#include<stdio.h>
-*/
+
+/* May not be available in all systems, but is available in ms windows. */
+#include<conio.h>
 
 void main()
 {
@@ -41,21 +41,9 @@ void main()
     printf("Size of float datatype is %d\n", sizeof(float));
 
     /*
-     * getch() can be used to make program wait untill the user enters any
-     * character.
-     *
-     * --> getch() is a character input function which is used to read one single
-     *     character from input/user. 
-     * --> getch() returns the value read from the input. 
-     * --> The value/character returned by getch() function can be safely ignored as
-     *     shown in the code below.
-     * --> It is a normal practice to call getch() to make program wait for some
-     *     time.
+     * Use getch() instead of getchar(). 
+     * For this is we need conio.h.
      */
-
-    /*
     getch();
-    */
-
 }
 

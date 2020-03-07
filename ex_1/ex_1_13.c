@@ -6,9 +6,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main()
 {
@@ -21,8 +18,6 @@ void main()
     /* Display result */
     printf("You entered character: %c\n", ch);
 
-    /*
-    getch();
-    */
+    getchar();
 }
 

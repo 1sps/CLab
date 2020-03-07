@@ -11,9 +11,6 @@
 
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -58,9 +55,7 @@ int main()
     printf("Circumference = %f\n", cf);
     printf("Area = %f\n", area);
 
-    /*
-     getch();
-    */
+    getchar();
 
     /* Note that we need to return a value from main function if we have
      * defined main as a function that returns an int.

@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main(void)
 {
@@ -50,9 +47,6 @@ void main(void)
     printf("--After swapping--\n");
     printf("a: %d, b: %d\n", a, b);
 
-    /*
-    getch();
-    */
-
+    getchar();
 }
 

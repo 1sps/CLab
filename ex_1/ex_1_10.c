@@ -7,9 +7,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -52,9 +49,7 @@ int main()
     printf("Discount: %.2f\n", discount);
     printf("Final price: %.2f\n", finalPrice);
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }

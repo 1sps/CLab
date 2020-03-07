@@ -6,17 +6,14 @@
  *
  * A program to illustrate prefix increment operator .
  *
- * Note that this example in lab manual invodes undefined behavior. See comments
+ * Note that this example in lab manual invokes undefined behavior. See comments
  * in notes below.
  *
- * TODO: Make sure Note is complete.
+ * TODO: Follow the notes. If in doubt search more in internet. 
  *
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main()
 {
@@ -51,12 +48,10 @@ void main()
      *
      * printf("%d %d %d", ++x, ++x, ++x) ;
      *
-     * -------------------------------------------------------------------
-     * Undefined behavior means we cannot predict what will be the output.
-     * -------------------------------------------------------------------
      *
-     * To know more about undefined behavior in C, a nice explaination is given
-     * in below link:
+     * ------------------
+     * Undefined behavior means we cannot predict what will be the output.
+     * ------------------
      *
      *
      * Note, however, below code is fine.
@@ -74,7 +69,7 @@ void main()
      *
      * gcc gives same warning for code above.
      *
-     * So in C, we cannot use same vairbale again in any arithmetic expression
+     * So in C, we do not use same vairbale again in any arithmetic expression
      * in same statement if we have already used increment/decrement operator in
      * that variable once.
      *
@@ -83,8 +78,6 @@ void main()
     /* Display values of v and x */
     printf("v=%d, x=%d\n", v, x);
 
-    /*
-    getch();
-    */
+    getchar();
 }
 

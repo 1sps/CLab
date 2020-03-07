@@ -12,9 +12,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -36,9 +33,7 @@ int main()
     /* Display the result.*/
     printf("Mid point: %.2f, %.2f\n", xMid, yMid);
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }

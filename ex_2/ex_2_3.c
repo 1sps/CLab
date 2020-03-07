@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main(void)
 {
@@ -35,9 +32,6 @@ void main(void)
 
     printf("Largest: %d\n", l);
 
-    /*
-    getch();
-    */
-
+    getchar();
 }
 

@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main(void)
 {
@@ -31,9 +28,6 @@ void main(void)
     /* Display the result.*/
     printf("Frnheit: %.2f\n", far);
 
-    /*
-    getch();
-    */
-
+    getchar();
 }
 

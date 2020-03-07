@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -36,9 +33,7 @@ int main()
     printf("Numbers: %d %d %d %d\n", a, b, c, d);
     printf("Mean: %f\n", mean);
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }

@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main()
 {
@@ -37,7 +34,31 @@ void main()
     /* to display value stored at s */
     printf("sum=%d\n", s);
 
+
+
     /*
-    getch();
-    */
+     * getchar() can be used to make program wait untill the user enters any
+     * character.
+     *
+     * --> getchar() is a character input function available in stdio.h which is
+     *     used to read one single character from input/user. 
+     *
+     * --> getchar() returns the character read from the keyboard. 
+     *
+     * --> We can store the character in a variable as shown below:
+     *     
+     *     char ch;
+     *     ch = getchar();
+     *
+     * --> The character returned by getchar() function can be safely
+     *     ignored as shown in the code below.
+     *
+     *
+     * --> We may want to call getchar() to make program wait for some
+     *     time.
+     *
+     * --> There are also similar functions getch() and getche() available in
+     *     conio.h.
+     */
+    getchar();
 }

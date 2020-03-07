@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -54,9 +51,7 @@ int main()
     printf("Rate: %f\n", r);
     printf("Simple Interest: %f\n", si);
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }

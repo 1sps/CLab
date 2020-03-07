@@ -16,9 +16,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -62,9 +59,7 @@ int main()
     /* Display result. */
     printf("f(x) = %.2Lf\n", fx);
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }

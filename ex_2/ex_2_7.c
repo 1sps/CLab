@@ -7,14 +7,13 @@
  * Write a program to compute equivalent resistance of two resistors R1 and R2
  * when they are connected in series and parallel connection.
  *
- * TODO: Check formula.
+ *
+ * Note: Make sure formula used to calculcate resistance is correct. If it is
+ *       incorrect make neccesary changes in the code.
  *
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main(void)
 {
@@ -38,12 +37,9 @@ void main(void)
     printf("---------------------\n");
     printf("Equivalent resistance\n");
     printf("---------------------\n");
-    printf("Series: %.2f\n", rs);
-    printf("Parallel: %.2f\n", rp);
+    printf("Series: %f\n", rs);
+    printf("Parallel: %f\n", rp);
 
-    /*
-    getch();
-    */
-
+    getchar();
 }
 

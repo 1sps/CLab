@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -23,32 +20,31 @@ int main()
     printf("Character : ");
     ch = getchar();
 
-    /*
-     * getch() or getche() are #include<conio.h> and can be used if this library
-     * is included.
-     *
-     * ch = getch(); 
-     * ch = getche();
-     *
-     * getchar() is available in #include<stdio.h>
-     *
-     */
-
     printf("User entered: ");
     /* Print character using character output function putchar(). */
     putchar(ch);
     putchar('\n');
-
-    /*
-     * putch() can be used as well if conio library is available.
-     *
-     * putch(ch);
-     *
-     */
 
 
     getchar();
 
     return 0;
 }
+
+
+/*
+ * Note
+ * ====
+ *
+ * getch() or getche() are #include<conio.h> and can be used if this library
+ * is included.
+ *
+ * ch = getch(); 
+ * ch = getche();
+ *
+ * getchar() is available in #include<stdio.h>
+ *
+ * putch() is also available in conio.h which is similar to putchar(). 
+ *
+ */
 

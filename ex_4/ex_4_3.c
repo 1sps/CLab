@@ -12,9 +12,6 @@
 
 #include<stdio.h>
 #include<math.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -64,9 +61,7 @@ int main()
         printf("Invalid input\n");
     }
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }

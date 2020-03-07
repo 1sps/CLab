@@ -9,9 +9,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main(void)
 {
@@ -29,9 +26,6 @@ void main(void)
     printf("\nMinutes = %d", min);
     printf("\nSeconds = %d", seconds);
 
-    /*
-    getch();
-    */
-
+    getchar();
 }
 

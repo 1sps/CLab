@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main()
 {
@@ -36,7 +33,7 @@ void main()
     printf("The read and stored value of b is = %d\n", b);
 
     /*
-     * Enter a number with more than 3 digits for b to see the effect if %3d.
+     * Enter a number with more than 3 digits for b to see the effect of %3d.
      * For example input the number 5555 for both a and b and see the output.
      *
      * Note that this is for scanf() and not for printf().

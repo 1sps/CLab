@@ -10,9 +10,6 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 void main(void)
 {
@@ -29,9 +26,6 @@ void main(void)
     /* Display the result.*/
     printf("Girls to Boys Ratio: %d : %d\n", numOfGirls, numOfBoys);
 
-    /*
-    getch();
-    */
-
+    getchar();
 }
 

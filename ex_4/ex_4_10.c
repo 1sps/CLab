@@ -12,18 +12,10 @@
  * 
  * Write algorithm, flowchart and code to develop the system.
  *
- * TODO:
- *
- * 1. Note saying this is a loop concept.
- * 2. strcmp
- * 
  */
 
 #include<stdio.h>
 #include<string.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
@@ -82,9 +74,7 @@ int main()
     }
 
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }

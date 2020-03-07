@@ -11,18 +11,13 @@
  */
 
 #include<stdio.h>
-/*
-#include<conio.h>
-*/
 
 int main()
 {
 
     printf("This is a theory question. See notes.\n");
 
-    /*
-    getch();
-    */
+    getchar();
 
     return 0;
 }
